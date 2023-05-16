@@ -244,7 +244,7 @@ class TaskDict(object):
 
         print(f't.py -> {len(out)} tasks!')
         print()
-        for line in sorted(out): print(f'[]\t {line}')
+        for line in sorted(out): print(f'[] {line}')
         print()
 
     def write(self, delete_if_empty=False):
